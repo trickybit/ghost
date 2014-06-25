@@ -1,23 +1,25 @@
-@import "ghost";
+@import "ghost/face";
+@import "ghost/grid";
+@import "ghost/crosshatch";
 
 .face-test {
-  .ghost.face(red);
+  .face(red);
 }
 .rule-test {
-  .ghost.rule(red, 1, 2em);
+  .rule(red, 1, 2em);
 }
 .rule-test-2 {
-  .ghost.rule(green, -1, 3em);
+  .rule(green, -1, 3em);
 }
 .hatch-test {
-  .ghost.hatch(red, 1, 2em);
+  .hatch(red, 1, 2em);
 }
 .hatch-test-2 {
-  .ghost.hatch(green, -1, 3em);
+  .hatch(green, -1, 3em);
 }
 .cross-hatch-test {
-  .ghost.crosshatch(red, 2em);
+  .crosshatch(red, 2em);
 }
 .grid-test {
-  .ghost.grid(red, 2em);
+  .grid(red, 2em);
 }
