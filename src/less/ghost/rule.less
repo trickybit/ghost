@@ -1,0 +1,5 @@
+.rule(@color: blue, @angle: 1, @gap: 1em) {
+  background+: linear-gradient((90deg * @angle), fade(@color, 50%) 1px, transparent 1px);
+  background-position+: -1px -1px;
+  background-size+: @gap @gap;
+}
