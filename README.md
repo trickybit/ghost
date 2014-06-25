@@ -6,7 +6,7 @@ LESS mix-in to the Netherworld
 ### Crosshatch
 #### Input
 ```css
-.ghost-crosshatch(blue);
+.ghost.crosshatch(blue);
 ```
 #### Output
 &#9641;
@@ -14,14 +14,14 @@ LESS mix-in to the Netherworld
 ### Hatch
 #### Input
 ```css
-.ghost-hatch(blue, 1);
+.ghost.hatch(blue, 1);
 ```
 #### Output
 &#9640;
 
 #### Input
 ```css
-.ghost-hatch(blue, -1);
+.ghost.hatch(blue, -1);
 ```
 #### Output
 &#9639;
@@ -29,14 +29,14 @@ LESS mix-in to the Netherworld
 ### Rule
 #### Input
 ```css
-.ghost-rule(blue, 0);
+.ghost.rule(blue, 0);
 ```
 #### Output
 &#9636;
 
 #### Input
 ```css
-.ghost-rule(blue, 1);
+.ghost.rule(blue, 1);
 ```
 #### Output
 &#9637;
@@ -44,14 +44,14 @@ LESS mix-in to the Netherworld
 ### Grid
 #### Input
 ```css
-.ghost-grid(blue, dotted);
+.ghost.grid(blue, dotted);
 ```
 #### Output
 &#11820;
 
 #### Input
 ```css
-.ghost-grid(blue, ruled);
+.ghost.grid(blue, ruled);
 ```
 #### Output
 &#9638;
@@ -59,7 +59,7 @@ LESS mix-in to the Netherworld
 ### Face
 #### Input
 ```css
-.ghost-face(magenta);
+.ghost.face(magenta);
 ```
 #### Output
 &#9712;
