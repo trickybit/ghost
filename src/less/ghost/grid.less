@@ -1,16 +1,17 @@
 @import 'rule';
 
-.grid(@color: blue, @style: ruled) when(@style = dotted) {
-  @faded: fade(@color, 50%);
-  background+: linear-gradient(45deg, @faded 1px, transparent 1px);
-  background+: linear-gradient(135deg, @faded 1px, transparent 1px);
-  background+: linear-gradient(225deg, @faded 1px, transparent 1px);
-  background+: linear-gradient(315deg, @faded 1px, transparent 1px);
-  
-  background-size+: 1em 1em;
-}
+.grid(@color: blue, @style: ruled, @gap: 1em) {
+  & when(@style = dotted) {
+    @faded: fade(@color, 50%);
+    background+: linear-gradient(45deg, @faded 1px, transparent 1px);
+    background+: linear-gradient(135deg, @faded 1px, transparent 1px);
+    background+: linear-gradient(225deg, @faded 1px, transparent 1px);
+    background+: linear-gradient(315deg, @faded 1px, transparent 1px);
 
-.grid(@color: blue, @style: ruled) when(@style = ruled) {
-  .rule(@color, 0);
-  .rule(@color, 1);
+    background-size+: @gap @gap;
+  }
+  & when(@style = ruled) {
+    .rule(@color, 0, @gap);
+    .rule(@color, 1, @gap);
+  }
 }

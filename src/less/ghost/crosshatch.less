@@ -1,6 +1,6 @@
 @import 'hatch';
 
-.crosshatch(@color: blue) {
-  .hatch(@color, 1);
-  .hatch(@color, -1);
+.crosshatch(@color: blue, @gap: 1em) {
+  .hatch(@color, 1, @gap);
+  .hatch(@color, -1, @gap);
 }
