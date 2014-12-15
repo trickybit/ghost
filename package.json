@@ -1,7 +1,7 @@
 {
   "name": "ghost",
   "version": "0.0.0",
-  "description": "ghost =====",
+  "description": "ghost",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "grunt test"
