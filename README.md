@@ -1,12 +1,24 @@
-ghost
-=====
+Ghost ᗣ
+=======
 
 LESS mix-in to the Netherworld
+
+### Importing
+Import directly.
+```
+@import "ghost/face";
+.face(...);
+```
+Import with a namepsace.
+```
+@import "ghost/ghost";
+.ghost.face(...)
+```
 
 ### Crosshatch
 #### Input
 ```css
-.ghost.crosshatch(blue);
+.crosshatch(blue);
 ```
 #### Output
 &#9641;
@@ -14,14 +26,14 @@ LESS mix-in to the Netherworld
 ### Hatch
 #### Input
 ```css
-.ghost.hatch(blue, 1);
+.hatch(blue, 1);
 ```
 #### Output
 &#9640;
 
 #### Input
 ```css
-.ghost.hatch(blue, -1);
+.hatch(blue, -1);
 ```
 #### Output
 &#9639;
@@ -29,14 +41,14 @@ LESS mix-in to the Netherworld
 ### Rule
 #### Input
 ```css
-.ghost.rule(blue, 0);
+.rule(blue, 0);
 ```
 #### Output
 &#9636;
 
 #### Input
 ```css
-.ghost.rule(blue, 1);
+.rule(blue, 1);
 ```
 #### Output
 &#9637;
@@ -44,14 +56,14 @@ LESS mix-in to the Netherworld
 ### Grid
 #### Input
 ```css
-.ghost.grid(blue, dotted);
+.grid(blue, dotted);
 ```
 #### Output
 &#11820;
 
 #### Input
 ```css
-.ghost.grid(blue, ruled);
+.grid(blue, ruled);
 ```
 #### Output
 &#9638;
@@ -59,7 +71,7 @@ LESS mix-in to the Netherworld
 ### Face
 #### Input
 ```css
-.ghost.face(magenta);
+.face(magenta);
 ```
 #### Output
 &#9712;
