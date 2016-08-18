@@ -63,7 +63,7 @@ Paint vertical and horzontal lines.
 ```
 #### Arguments
   1. line color (optional)
-  1. line style 'ruled' or 'dotted' (optional)
+  1. line style (optional)
   1. line gap (optional)
 
 ### Face
