@@ -61,7 +61,7 @@ Paint vertical and horzontal lines.
 .grid(blue, dotted, 1em);
 .grid(blue, ruled, 1em);
 ```
-##### Arguments
+#### Arguments
   1. line color (optional)
   1. line style 'ruled' or 'dotted' (optional)
   1. line gap (optional)
