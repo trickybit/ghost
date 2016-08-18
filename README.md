@@ -54,7 +54,7 @@ Import with a namepsace.
 &#9637;
 
 ### Grid
-Paint vertical and horzontal lines.
+Fill the surface with vertical and horzontal lines.
 
 #### Usage
 ```css
@@ -67,9 +67,11 @@ Paint vertical and horzontal lines.
   1. line gap (optional)
 
 ### Face
-#### Input
+Fill the surface with a color and draw an outline.
+
+#### Usage
 ```css
 .face(magenta);
 ```
-#### Output
-&#9712;
+#### Arguments
+  1. fill color (optional)
