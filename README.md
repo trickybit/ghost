@@ -54,16 +54,20 @@ Import with a namepsace.
 &#9637;
 
 ### Grid
-#### Input
+Paint vertical and horzontal lines.
+
+#### Usage
 ```css
-.grid(blue, dotted);
+.grid(blue, dotted, 1em);
 ```
-#### Output
-&#11820;
+##### Arguments
+  1. line color (optional)
+  1. line style (optional)
+  1. line gap (optional)
 
 #### Input
 ```css
-.grid(blue, ruled);
+.grid(blue, ruled, 1em);
 ```
 #### Output
 &#9638;
