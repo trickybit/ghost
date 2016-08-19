@@ -20,8 +20,8 @@ Import with a namepsace.
 ```css
 .crosshatch(blue);
 ```
-#### Output
-&#9641;
+#### Example
+[CODEPEN](http://s.codepen.io/tappily/debug/EyJEOj#crosshatch)
 
 ### Hatch
 #### Input
@@ -31,7 +31,7 @@ Import with a namepsace.
 #### Output
 &#9640;
 
-#### Input
+#### Usage
 ```css
 .hatch(blue, -1);
 ```
@@ -43,22 +43,23 @@ Fill the surface with vertical or horzontal lines.
 
 #### Usage
 ```css
-.rule(blue, 0);
-.rule(blue, 1);
+.rule(blue, 0, 1rem);
+.rule(blue, 1, 1rem);
 ```
 #### Parameters
   1. line color (optional)
   1. line direction (optional)
     - 0 (horizontal)
     - 1 (vertical)
+  1. line gap (optional)
 
 ### Grid
 Fill the surface with vertical and horzontal lines.
 
 #### Usage
 ```css
-.grid(blue, dotted, 1em);
-.grid(blue, ruled, 1em);
+.grid(blue, dotted, 1rem);
+.grid(blue, ruled, 1rem);
 ```
 #### Parameters
   1. line color (optional)
