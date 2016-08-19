@@ -39,19 +39,18 @@ Import with a namepsace.
 &#9639;
 
 ### Rule
-#### Input
+Fill the surface with vertical or horzontal lines.
+
+#### Usage
 ```css
 .rule(blue, 0);
-```
-#### Output
-&#9636;
-
-#### Input
-```css
 .rule(blue, 1);
 ```
-#### Output
-&#9637;
+#### Parameters
+  1. line color (optional)
+  1. line direction (optional)
+    - 0 (horizontal)
+    - 1 (vertical)
 
 ### Grid
 Fill the surface with vertical and horzontal lines.
@@ -61,7 +60,7 @@ Fill the surface with vertical and horzontal lines.
 .grid(blue, dotted, 1em);
 .grid(blue, ruled, 1em);
 ```
-#### Arguments
+#### Parameters
   1. line color (optional)
   1. line style (optional)
   1. line gap (optional)
