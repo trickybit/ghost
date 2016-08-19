@@ -5,12 +5,12 @@ LESS mix-in to the Netherworld
 
 ### Importing
 Import directly.
-```
+```css
 @import "ghost/face";
 .face(...);
 ```
 Import with a namepsace.
-```
+```css
 @import "ghost/ghost";
 .ghost.face(...)
 ```
