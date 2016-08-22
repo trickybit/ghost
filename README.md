@@ -25,7 +25,7 @@ Fill the surface with crossing diagonal lines.
 
 #### Input
 ```css
-.crosshatch(blue, 1em);
+.crosshatch(blue, 1rem);
 ```
 
 #### Output
