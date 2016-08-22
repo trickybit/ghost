@@ -17,6 +17,7 @@ Import with a namepsace.
 ```
 
 ### Crosshatch
+Fill the surface with crossing diagonal lines.
 
 #### Parameters
   1. line color (optional)
