@@ -65,8 +65,8 @@ Fill the surface with vertical or horzontal lines.
 #### Parameters
   1. line color (optional)
   1. line direction (optional)
-    - 0 (horizontal)
-    - 1 (vertical)
+    - 0 (vertical)
+    - 1 (horizontal)
   1. line gap (optional)
 
 #### Input (horizontal)
