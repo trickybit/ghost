@@ -12,7 +12,7 @@ Import directly.
 Import with a namepsace.
 ```css
 @import "ghost/ghost";
-.ghost.face(...)
+.ghost.face(...);
 ```
 
 Mixins
