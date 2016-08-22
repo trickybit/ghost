@@ -1,22 +1,24 @@
 Ghost ᗣ
 =======
-
 LESS mix-in to the Netherworld
 
-### Importing
+Importing
+---------
 Import directly.
 ```css
 @import "ghost/face";
 .face(...);
 ```
-
 Import with a namepsace.
 ```css
 @import "ghost/ghost";
 .ghost.face(...)
 ```
 
-### Crosshatch
+Mixins
+------
+
+###Crosshatch
 Fill the surface with crossing diagonal lines.
 
 #### Parameters
@@ -31,21 +33,27 @@ Fill the surface with crossing diagonal lines.
 #### Output
 [CODEPEN](http://s.codepen.io/tappily/debug/EyJEOj#crosshatch)
 
-### Hatch (left)
+### Hatch
+Fill the surface with diagonal lines.
 
-#### Input
+#### Parameters
+  1. line color (optional)
+  1. line direction (optional)
+    - 1 (left)
+    - -1 (right)
+  1. line gap (optional)
+
+#### Input (left)
 ```css
-.hatch(blue, 1);
+.hatch(blue, 1, 1rem);
 ```
 
 #### Output
 [CODEPEN](http://s.codepen.io/tappily/debug/EyJEOj#hatch-left)
 
-### Hatch (right)
-
-#### Input
+#### Input (right)
 ```css
-.hatch(blue, -1);
+.hatch(blue, -1, 1rem);
 ```
 
 #### Output
@@ -89,18 +97,15 @@ Fill the surface with vertical and horzontal lines.
 ```css
 .grid(blue, ruled, 1rem);
 ```
-
 #### Output
-[CODEPEN](http://s.codepen.io/tappily/debug/EyJEOjgrid-ruled)
+[CODEPEN](http://s.codepen.io/tappily/debug/EyJEOj#grid-ruled)
 
 #### Input (dotted)
-
 ```css
 .grid(blue, dotted, 1rem);
 ```
-
 #### Output
-[CODEPEN](http://s.codepen.io/tappily/debug/EyJEOjgrid-dotted)
+[CODEPEN](http://s.codepen.io/tappily/debug/EyJEOj#grid-dotted)
 
 ### Face
 Fill the surface with a color and draw an outline.
@@ -113,4 +118,5 @@ Fill the surface with a color and draw an outline.
 .face(magenta);
 ```
 
-
+#### Output
+[CODEPEN](http://s.codepen.io/tappily/debug/EyJEOj#face)
