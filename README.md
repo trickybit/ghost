@@ -69,6 +69,14 @@ Fill the surface with vertical or horzontal lines.
     - 1 (horizontal)
   1. line gap (optional)
 
+#### Input (vertical)
+```css
+.rule(blue, 0, 1rem);
+```
+
+#### Output
+[CODEPEN](http://s.codepen.io/tappily/debug/EyJEOj#rule-vertical)
+
 #### Input (horizontal)
 ```css
 .rule(blue, 1, 1rem);
@@ -76,14 +84,6 @@ Fill the surface with vertical or horzontal lines.
 
 #### Output
 [CODEPEN](http://s.codepen.io/tappily/debug/EyJEOj#rule-horizontal)
-
-#### Input (vertical)
-```css
-.rule(blue, 1, 1rem);
-```
-
-#### Output
-[CODEPEN](http://s.codepen.io/tappily/debug/EyJEOj#rule-vertical)
 
 ### Grid
 Fill the surface with vertical and horzontal lines.
