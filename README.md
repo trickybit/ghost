@@ -18,9 +18,13 @@ Import with a namepsace.
 
 ### Crosshatch
 
+#### Parameters
+  1. line color (optional)
+  1. line gap (optional)
+
 #### Input
 ```css
-.crosshatch(blue);
+.crosshatch(blue, 1em);
 ```
 
 #### Output
