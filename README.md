@@ -29,7 +29,8 @@ Fill the surface with crossing diagonal lines.
 ```css
 .crosshatch(blue, 1rem);
 ```
-[Crosshatch example](http://s.codepen.io/tappily/debug/EyJEOj#crosshatch)
+#### Example
+[Crosshatch](http://s.codepen.io/tappily/debug/EyJEOj#crosshatch)
 
 ### Hatch
 Fill the surface with diagonal lines.
@@ -41,17 +42,13 @@ Fill the surface with diagonal lines.
     - -1 (right)
   1. line gap (optional)
 
-#### Input (left)
+#### Usage
 ```css
 .hatch(blue, 1, 1rem);
 ```
-[Hatch left example](http://s.codepen.io/tappily/debug/EyJEOj#hatch-left)
-
-#### Input (right)
-```css
-.hatch(blue, -1, 1rem);
-```
-[hatch right example](http://s.codepen.io/tappily/debug/EyJEOj#hatch-right)
+#### Examples
+- [Hatch (left)](http://s.codepen.io/tappily/debug/EyJEOj#hatch-left)
+- [Hatch (right)](http://s.codepen.io/tappily/debug/EyJEOj#hatch-right)
 
 ### Rule
 Fill the surface with vertical or horzontal lines.
@@ -63,17 +60,13 @@ Fill the surface with vertical or horzontal lines.
     - 1 (horizontal)
   1. line gap (optional)
 
-#### Input (vertical)
+#### Usage
 ```css
 .rule(blue, 0, 1rem);
 ```
-[Rule vertical example](http://s.codepen.io/tappily/debug/EyJEOj#rule-vertical)
-
-#### Input (horizontal)
-```css
-.rule(blue, 1, 1rem);
-```
-[Rule horizontal example](http://s.codepen.io/tappily/debug/EyJEOj#rule-horizontal)
+#### Examples
+- [Rule (vertical)](http://s.codepen.io/tappily/debug/EyJEOj#rule-vertical)
+- [Rule (horizontal)](http://s.codepen.io/tappily/debug/EyJEOj#rule-horizontal)
 
 ### Grid
 Fill the surface with vertical and horzontal lines.
@@ -83,17 +76,13 @@ Fill the surface with vertical and horzontal lines.
   1. line style (optional)
   1. line gap (optional)
 
-#### Input (ruled)
+#### Usage
 ```css
 .grid(blue, ruled, 1rem);
 ```
-[Grid ruled example](http://s.codepen.io/tappily/debug/EyJEOj#grid-ruled)
-
-#### Input (dotted)
-```css
-.grid(blue, dotted, 1rem);
-```
-[Grid dotted example](http://s.codepen.io/tappily/debug/EyJEOj#grid-dotted)
+#### Examples
+- [Grid (ruled)](http://s.codepen.io/tappily/debug/EyJEOj#grid-ruled)
+- [Grid (dotted)](http://s.codepen.io/tappily/debug/EyJEOj#grid-dotted)
 
 ### Face
 Fill the surface with a color and draw an outline.
@@ -105,4 +94,5 @@ Fill the surface with a color and draw an outline.
 ```css
 .face(magenta);
 ```
-[Face example](http://s.codepen.io/tappily/debug/EyJEOj#face)
+#### Example
+[Face](http://s.codepen.io/tappily/debug/EyJEOj#face)
