@@ -1,77 +1,100 @@
 Ghost ᗣ
 =======
-
 LESS mix-in to the Netherworld
 
-### Importing
+Import
+------
 Import directly.
-```
+```css
 @import "ghost/face";
 .face(...);
 ```
 Import with a namepsace.
-```
+```css
 @import "ghost/ghost";
-.ghost.face(...)
+.ghost.face(...);
 ```
 
-### Crosshatch
-#### Input
-```css
-.crosshatch(blue);
-```
-#### Output
-&#9641;
+Crosshatch
+----------
+Fill the surface with crossing diagonal lines.
 
-### Hatch
-#### Input
-```css
-.hatch(blue, 1);
-```
-#### Output
-&#9640;
+#### Parameters
+  1. line color (optional)
+  1. line gap (optional)
 
 #### Input
 ```css
-.hatch(blue, -1);
+.crosshatch(blue, 1rem);
 ```
-#### Output
-&#9639;
+#### Example
+[Crosshatch](http://s.codepen.io/tappily/debug/EyJEOj#crosshatch)
 
-### Rule
-#### Input
+Hatch
+-----
+Fill the surface with diagonal lines.
+
+#### Parameters
+  1. line color (optional)
+  1. line direction (optional)
+    - 1 (left)
+    - -1 (right)
+  1. line gap (optional)
+
+#### Usage
 ```css
-.rule(blue, 0);
+.hatch(blue, 1, 1rem);
 ```
-#### Output
-&#9636;
+#### Examples
+- [Hatch (left)](http://s.codepen.io/tappily/debug/EyJEOj#hatch-left)
+- [Hatch (right)](http://s.codepen.io/tappily/debug/EyJEOj#hatch-right)
 
-#### Input
+Rule
+----
+Fill the surface with vertical or horzontal lines.
+
+#### Parameters
+  1. line color (optional)
+  1. line direction (optional)
+    - 0 (vertical)
+    - 1 (horizontal)
+  1. line gap (optional)
+
+#### Usage
 ```css
-.rule(blue, 1);
+.rule(blue, 0, 1rem);
 ```
-#### Output
-&#9637;
+#### Examples
+- [Rule (vertical)](http://s.codepen.io/tappily/debug/EyJEOj#rule-vertical)
+- [Rule (horizontal)](http://s.codepen.io/tappily/debug/EyJEOj#rule-horizontal)
 
-### Grid
-#### Input
+Grid
+----
+Fill the surface with vertical and horzontal lines.
+
+#### Parameters
+  1. line color (optional)
+  1. line style (optional)
+  1. line gap (optional)
+
+#### Usage
 ```css
-.grid(blue, dotted);
+.grid(blue, ruled, 1rem);
 ```
-#### Output
-&#11820;
+#### Examples
+- [Grid (ruled)](http://s.codepen.io/tappily/debug/EyJEOj#grid-ruled)
+- [Grid (dotted)](http://s.codepen.io/tappily/debug/EyJEOj#grid-dotted)
 
-#### Input
-```css
-.grid(blue, ruled);
-```
-#### Output
-&#9638;
+Face
+----
+Fill the surface with a color and draw an outline.
 
-### Face
+#### Parameters
+  1. fill color (optional)
+
 #### Input
 ```css
 .face(magenta);
 ```
-#### Output
-&#9712;
+#### Example
+[Face](http://s.codepen.io/tappily/debug/EyJEOj#face)
