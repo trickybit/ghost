@@ -2,8 +2,8 @@ Ghost ᗣ
 =======
 LESS mix-in to the Netherworld
 
-Importing
----------
+Import
+------
 Import directly.
 ```css
 @import "ghost/face";
@@ -15,10 +15,8 @@ Import with a namepsace.
 .ghost.face(...);
 ```
 
-Mixins
-------
-
-###Crosshatch
+Crosshatch
+----------
 Fill the surface with crossing diagonal lines.
 
 #### Parameters
@@ -32,7 +30,8 @@ Fill the surface with crossing diagonal lines.
 #### Example
 [Crosshatch](http://s.codepen.io/tappily/debug/EyJEOj#crosshatch)
 
-### Hatch
+Hatch
+-----
 Fill the surface with diagonal lines.
 
 #### Parameters
@@ -50,7 +49,8 @@ Fill the surface with diagonal lines.
 - [Hatch (left)](http://s.codepen.io/tappily/debug/EyJEOj#hatch-left)
 - [Hatch (right)](http://s.codepen.io/tappily/debug/EyJEOj#hatch-right)
 
-### Rule
+Rule
+----
 Fill the surface with vertical or horzontal lines.
 
 #### Parameters
@@ -68,7 +68,8 @@ Fill the surface with vertical or horzontal lines.
 - [Rule (vertical)](http://s.codepen.io/tappily/debug/EyJEOj#rule-vertical)
 - [Rule (horizontal)](http://s.codepen.io/tappily/debug/EyJEOj#rule-horizontal)
 
-### Grid
+Grid
+----
 Fill the surface with vertical and horzontal lines.
 
 #### Parameters
@@ -84,7 +85,8 @@ Fill the surface with vertical and horzontal lines.
 - [Grid (ruled)](http://s.codepen.io/tappily/debug/EyJEOj#grid-ruled)
 - [Grid (dotted)](http://s.codepen.io/tappily/debug/EyJEOj#grid-dotted)
 
-### Face
+Face
+----
 Fill the surface with a color and draw an outline.
 
 #### Parameters
