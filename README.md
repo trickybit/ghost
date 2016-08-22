@@ -29,9 +29,7 @@ Fill the surface with crossing diagonal lines.
 ```css
 .crosshatch(blue, 1rem);
 ```
-
-#### Output
-[CODEPEN](http://s.codepen.io/tappily/debug/EyJEOj#crosshatch)
+[Crosshatch example](http://s.codepen.io/tappily/debug/EyJEOj#crosshatch)
 
 ### Hatch
 Fill the surface with diagonal lines.
@@ -47,17 +45,13 @@ Fill the surface with diagonal lines.
 ```css
 .hatch(blue, 1, 1rem);
 ```
-
-#### Output
-[CODEPEN](http://s.codepen.io/tappily/debug/EyJEOj#hatch-left)
+[Hatch left example](http://s.codepen.io/tappily/debug/EyJEOj#hatch-left)
 
 #### Input (right)
 ```css
 .hatch(blue, -1, 1rem);
 ```
-
-#### Output
-[CODEPEN](http://s.codepen.io/tappily/debug/EyJEOj#hatch-right)
+[hatch right example](http://s.codepen.io/tappily/debug/EyJEOj#hatch-right)
 
 ### Rule
 Fill the surface with vertical or horzontal lines.
@@ -73,17 +67,13 @@ Fill the surface with vertical or horzontal lines.
 ```css
 .rule(blue, 0, 1rem);
 ```
-
-#### Output
-[CODEPEN](http://s.codepen.io/tappily/debug/EyJEOj#rule-vertical)
+[Rule vertical example](http://s.codepen.io/tappily/debug/EyJEOj#rule-vertical)
 
 #### Input (horizontal)
 ```css
 .rule(blue, 1, 1rem);
 ```
-
-#### Output
-[CODEPEN](http://s.codepen.io/tappily/debug/EyJEOj#rule-horizontal)
+[Rule horizontal example](http://s.codepen.io/tappily/debug/EyJEOj#rule-horizontal)
 
 ### Grid
 Fill the surface with vertical and horzontal lines.
@@ -97,15 +87,13 @@ Fill the surface with vertical and horzontal lines.
 ```css
 .grid(blue, ruled, 1rem);
 ```
-#### Output
-[CODEPEN](http://s.codepen.io/tappily/debug/EyJEOj#grid-ruled)
+[Grid ruled example](http://s.codepen.io/tappily/debug/EyJEOj#grid-ruled)
 
 #### Input (dotted)
 ```css
 .grid(blue, dotted, 1rem);
 ```
-#### Output
-[CODEPEN](http://s.codepen.io/tappily/debug/EyJEOj#grid-dotted)
+[Grid dotted example](http://s.codepen.io/tappily/debug/EyJEOj#grid-dotted)
 
 ### Face
 Fill the surface with a color and draw an outline.
@@ -117,6 +105,4 @@ Fill the surface with a color and draw an outline.
 ```css
 .face(magenta);
 ```
-
-#### Output
-[CODEPEN](http://s.codepen.io/tappily/debug/EyJEOj#face)
+[Face example](http://s.codepen.io/tappily/debug/EyJEOj#face)
