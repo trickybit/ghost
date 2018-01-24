@@ -5,12 +5,12 @@ LESS mix-in to the Netherworld
 Import
 ------
 Import directly.
-```css
+```less
 @import "ghost/face";
 .face(...);
 ```
 Import with a namepsace.
-```css
+```less
 @import "ghost/ghost";
 .ghost.face(...);
 ```
@@ -24,7 +24,7 @@ Fill the surface with crossing diagonal lines.
   1. line gap (optional)
 
 #### Input
-```css
+```less
 .crosshatch(blue, 1rem);
 ```
 #### Example
@@ -42,7 +42,7 @@ Fill the surface with diagonal lines.
   1. line gap (optional)
 
 #### Usage
-```css
+```less
 .hatch(blue, 1, 1rem);
 ```
 #### Examples
@@ -61,7 +61,7 @@ Fill the surface with vertical or horzontal lines.
   1. line gap (optional)
 
 #### Usage
-```css
+```less
 .rule(blue, 0, 1rem);
 ```
 #### Examples
@@ -78,7 +78,7 @@ Fill the surface with vertical and horzontal lines.
   1. line gap (optional)
 
 #### Usage
-```css
+```less
 .grid(blue, ruled, 1rem);
 ```
 #### Examples
@@ -93,7 +93,7 @@ Fill the surface with a color and draw an outline.
   1. fill color (optional)
 
 #### Input
-```css
+```less
 .face(magenta);
 ```
 #### Example
